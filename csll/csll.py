@@ -5,7 +5,7 @@
 # Date   : 31-08-2023
 # Written: JAM
 
-# Class to define a ll node
+# Class to define  sll node
 class Node(object):
     def __init__(self: object, value: any):
         self.value = value
