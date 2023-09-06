@@ -18,7 +18,7 @@ class DoublyLinkedList(object):
     # Initialise dll
     def __init__(self:object):
         self.head = None
-        self.head = None
+        self.tail = None
 
     # Print elements of dll
     def __iter__(self:object):
@@ -166,26 +166,3 @@ class DoublyLinkedList(object):
             tempNode = tempNode.next
         self.head = self.tail = None
         return "dll deleted"
-        
-
-dll = DoublyLinkedList()
-dll.createDll(5)
-print([node.value for node in dll])
-dll.insertDll(0,0)
-print([node.value for node in dll])
-dll.insertDll(2,-1)
-print([node.value for node in dll])
-dll.appendDll(3)
-dll.prependDll(2)
-print([node.value for node in dll])
-dll.traverseDll()
-dll.reverseTraverseDll()
-print(dll.searchDll(5))
-dll.firstPopDll()
-print([node.value for node in dll])
-dll.popDll()
-print([node.value for node in dll])
-dll.removeDll(1)
-print([node.value for node in dll])
-dll.deleteDll()
-print([node.value for node in dll])
