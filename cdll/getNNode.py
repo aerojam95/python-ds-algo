@@ -1,4 +1,4 @@
-# This function gets nth node from a linked list defined by linkedlist.py
+# This function gets nth node from a linked list defined by ll.py
 
 # Date   : 05-09-2023
 # Written: JAM

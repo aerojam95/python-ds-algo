@@ -1,4 +1,4 @@
-# This function gets partition a linked list defined by linkedlist.py around an
+# This function gets partition a linked list defined by ll.py around an
 # argument x, values less than x are prepended, values great thn or equal to x
 # are appended
 
