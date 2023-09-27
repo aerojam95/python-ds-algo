@@ -1,7 +1,7 @@
 # A class to define an AVL tree DS with LL
 
 # data   : 27-09-2023
-# Written by: JAM
+# Written by: JAM 
 
 class TrieNode(object):
     # Define tree node object
